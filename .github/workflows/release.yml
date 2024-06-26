@@ -1,15 +1,16 @@
-name: ci
+name: Release Charts
 on:
   push:
     branches:
       - main
 jobs:
-  commit-updates:
+  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: true
+          fetch-depth: 0
 
       - name: Configure Git
         run: |
