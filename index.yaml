@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  base:
+  - apiVersion: v2
+    created: "2024-06-26T18:51:38.635561217Z"
+    description: Base Helm Chart
+    digest: 17bde2374c9ae885133fc4929ed1cf23b55b6cff30d48bef1c40fcf1c715cd03
+    home: https://charts.seibert.family
+    keywords:
+    - library-chart
+    maintainers:
+    - email: aaron@awseibert.net
+      name: AaronSeibert
+    name: base
+    sources:
+    - https://github.com/AaronSeibert/helm-chart-base
+    type: library
+    urls:
+    - https://github.com/AaronSeibert/charts-seibert-family/releases/download/base-0.7.2/base-0.7.2.tgz
+    version: 0.7.2
+generated: "2024-06-26T18:51:38.635580674Z"
